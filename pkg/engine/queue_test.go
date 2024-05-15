@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	. "github.com/babakgh/infillion/load-balancer/pkg/engine"
+	. "github.com/babakgh/load-balancer/pkg/engine"
 )
 
 func TestQueue(t *testing.T) {

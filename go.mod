@@ -1,4 +1,4 @@
-module github.com/babakgh/infillion/load-balancer
+module github.com/babakgh/load-balancer
 
 go 1.22.2
 

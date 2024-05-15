@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/babakgh/infillion/load-balancer/pkg/engine"
+	. "github.com/babakgh/load-balancer/pkg/engine"
 	"github.com/stretchr/testify/assert"
 )
 

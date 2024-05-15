@@ -11,9 +11,10 @@ type Engine struct {
 	done       chan struct{}
 	wg         sync.WaitGroup
 	maxWorkers uint32
-	reporter   *ReportManager
-	backends   []Backender
-	selector   Selector
+
+	reporter *ReportManager
+	backends []Backender
+	selector Selector
 }
 
 func NewEngine(maxWorkers uint32, selector Selector) *Engine {

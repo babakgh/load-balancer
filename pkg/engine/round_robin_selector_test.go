@@ -3,7 +3,7 @@ package engine_test
 import (
 	"testing"
 
-	. "github.com/babakgh/infillion/load-balancer/pkg/engine"
+	. "github.com/babakgh/load-balancer/pkg/engine"
 	"github.com/stretchr/testify/assert"
 )
 

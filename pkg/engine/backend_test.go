@@ -3,7 +3,7 @@ package engine_test
 import (
 	"time"
 
-	. "github.com/babakgh/infillion/load-balancer/pkg/engine"
+	. "github.com/babakgh/load-balancer/pkg/engine"
 )
 
 // MockBackend is a simple implementation of Backender
